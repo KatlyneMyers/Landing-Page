@@ -1,3 +1,25 @@
 img{
     height:200px;
+    width:230px;
+}
+@media(min-width: 700px){
+    .two{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 16px;
+}
+}
+@media(min-width: 850px){
+    .Three{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 16px;
+}
+}
+@media(min-width: 1080px){
+    .four{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 16px;
+}
 }
