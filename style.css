@@ -22,3 +22,9 @@ body{
         grid-column-gap: 10px;
 }
 }
+.Words{
+    font-size:100px;
+}
+h1{
+    text-align: center;
+}
