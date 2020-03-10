@@ -9,14 +9,14 @@ body{
 }
 }
 @media(min-width: 850px){
-    .Three{
+    .Three ol{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 10px;
 }
 }
-@media(min-width: 1080px){
-    .Four{
+@media(min-width: 1000px){
+    .Four ol{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 10px;
