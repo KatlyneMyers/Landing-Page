@@ -8,14 +8,14 @@ body{
         grid-column-gap: 10px;
 }
 }
-@media(min-width: 900px){
+@media(min-width: 850px){
     .Three ol{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 10px;
 }
 }
-@media(min-width: 1000px){
+@media(min-width: 1050px){
     .Four ol{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
