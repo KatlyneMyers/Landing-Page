@@ -5,21 +5,21 @@ body{
     .Two ol{
         display:grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10px;
+        grid-column-gap: 5px;
 }
 }
 @media(min-width: 850px){
     .Three ol{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 10px;
+        grid-column-gap: 5px;
 }
 }
-@media(min-width: 1025px){
+@media(min-width: 1050px){
     .Four ol{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 10px;
+        grid-column-gap: 5px;
 }
 }
 .Words{
@@ -27,4 +27,7 @@ body{
 }
 h1{
     text-align: center;
+}
+.Align{
+    text-align: right;
 }
