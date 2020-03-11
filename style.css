@@ -22,8 +22,8 @@ body{
         grid-column-gap: 5px;
 }
 }
-.Words{
-    font-size:100px;
+ol{
+    padding: 20px;
 }
 h1, p{
     text-align: center;
